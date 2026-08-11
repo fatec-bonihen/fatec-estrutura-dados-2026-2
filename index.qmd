@@ -1,0 +1,16 @@
+---
+title: "Estruturas de Dados"
+subtitle: "FATEC — 2º Semestre de 2026"
+---
+
+## Bem-vindo
+
+Este é o portal da disciplina de **Estruturas de Dados**.
+
+Aqui serão publicados:
+
+- materiais das aulas;
+- cronograma;
+- laboratórios;
+- materiais complementares;
+- informações sobre o Projeto Integrador.
