@@ -1,16 +1,218 @@
 ---
 title: "Estruturas de Dados"
-subtitle: "FATEC — 2º Semestre de 2026"
+page-layout: full
+toc: false
+title-block-banner: false
 ---
 
-## Bem-vindo
+<div class="terminal-home">
 
-Este é o portal da disciplina de **Estruturas de Dados**.
+<div class="terminal-window">
 
-Aqui serão publicados:
+<div class="terminal-bar">
+  <span class="terminal-dot"></span>
+  <span class="terminal-dot"></span>
+  <span class="terminal-dot"></span>
+  <span class="terminal-title">fatec@ied001: ~/estrutura-dados</span>
+</div>
 
-- materiais das aulas;
-- cronograma;
-- laboratórios;
-- materiais complementares;
-- informações sobre o Projeto Integrador.
+<div class="terminal-body">
+
+<div class="terminal-prompt">
+<span class="prompt-user">fatec@ied001</span><span class="prompt-sep">:</span><span class="prompt-path">~/estrutura-dados</span><span class="prompt-symbol">$</span>
+<span class="prompt-command">cat disciplina.txt</span>
+</div>
+
+<div class="terminal-hero">
+
+<div class="terminal-code">IED001 / FATEC / 2026.2</div>
+
+<h1>
+ESTRUTURAS<br>
+DE DADOS
+<span class="cursor">_</span>
+</h1>
+
+<p>
+dados / memória / algoritmos / desempenho
+</p>
+
+</div>
+
+<div class="terminal-prompt">
+<span class="prompt-user">fatec@ied001</span><span class="prompt-sep">:</span><span class="prompt-path">~/estrutura-dados</span><span class="prompt-symbol">$</span>
+<span class="prompt-command">next-class</span>
+</div>
+
+<div class="next-terminal">
+
+<div class="next-terminal-number">02</div>
+
+<div>
+  <div class="terminal-section-label">NEXT CLASS / 12 AUG 2026</div>
+
+  <h2>Fundamentos da Disciplina</h2>
+
+  <p>
+  Introdução às Estruturas de Dados, aplicações no desenvolvimento
+  de software, ambiente Python/C, Git e organização do projeto.
+  </p>
+
+  <a href="aulas.qmd" class="terminal-button">
+  ./acessar-aulas.sh
+  <i class="bi bi-arrow-right"></i>
+  </a>
+</div>
+
+</div>
+
+<div class="terminal-prompt">
+<span class="prompt-user">fatec@ied001</span><span class="prompt-sep">:</span><span class="prompt-path">~/estrutura-dados</span><span class="prompt-symbol">$</span>
+<span class="prompt-command">ls</span>
+</div>
+
+<div class="terminal-nav">
+
+<a href="cronograma.qmd">
+  <span class="terminal-nav-index">01</span>
+  <i class="bi bi-calendar3"></i>
+  <span>cronograma/</span>
+</a>
+
+<a href="aulas.qmd">
+  <span class="terminal-nav-index">02</span>
+  <i class="bi bi-mortarboard"></i>
+  <span>aulas/</span>
+</a>
+
+<a href="projeto.qmd">
+  <span class="terminal-nav-index">03</span>
+  <i class="bi bi-diagram-3"></i>
+  <span>projeto/</span>
+</a>
+
+<a href="materiais.qmd">
+  <span class="terminal-nav-index">04</span>
+  <i class="bi bi-folder2-open"></i>
+  <span>materiais/</span>
+</a>
+
+</div>
+
+<div class="terminal-prompt">
+<span class="prompt-user">fatec@ied001</span><span class="prompt-sep">:</span><span class="prompt-path">~/estrutura-dados</span><span class="prompt-symbol">$</span>
+<span class="prompt-command">roadmap --semester 2026.2</span>
+</div>
+
+<div class="roadmap-terminal">
+
+<div><span>01</span> FUNDAMENTOS</div>
+<div><span>02</span> TAD</div>
+<div><span>03</span> MEMÓRIA</div>
+<div><span>04</span> RECURSIVIDADE</div>
+<div><span>05</span> LISTAS</div>
+<div><span>06</span> PILHAS / FILAS</div>
+<div><span>07</span> HASH</div>
+<div><span>08</span> ÁRVORES</div>
+<div><span>09</span> BUSCA</div>
+<div><span>10</span> ORDENAÇÃO</div>
+
+</div>
+
+<div class="terminal-prompt">
+<span class="prompt-user">fatec@ied001</span><span class="prompt-sep">:</span><span class="prompt-path">~/estrutura-dados</span><span class="prompt-symbol">$</span>
+<span class="prompt-command">cat metodo.txt</span>
+</div>
+
+<div class="method-terminal">
+
+<span>DESENHAR</span>
+<span class="method-arrow">→</span>
+<span>IMPLEMENTAR</span>
+<span class="method-arrow">→</span>
+<span>DEPURAR</span>
+<span class="method-arrow">→</span>
+<span>EXPLICAR</span>
+
+</div>
+
+<div class="terminal-prompt">
+<span class="prompt-user">fatec@ied001</span><span class="prompt-sep">:</span><span class="prompt-path">~/estrutura-dados</span><span class="prompt-symbol">$</span>
+<span class="prompt-command">cat projeto.md</span>
+</div>
+
+<div class="terminal-text-block">
+
+<h2>Projeto Integrador</h2>
+
+<p>
+O projeto será desenvolvido <strong>gradativamente durante o semestre</strong>.
+Os grupos e seus papéis já foram organizados. O escopo será discutido
+com a turma e evoluirá conforme novos conceitos e estruturas forem estudados.
+</p>
+
+<a href="projeto.qmd" class="terminal-button">
+./acompanhar-projeto.sh
+<i class="bi bi-arrow-right"></i>
+</a>
+
+</div>
+
+<div class="terminal-prompt">
+<span class="prompt-user">fatec@ied001</span><span class="prompt-sep">:</span><span class="prompt-path">~/estrutura-dados</span><span class="prompt-symbol">$</span>
+<span class="prompt-command">milestones</span>
+</div>
+
+<div class="milestones-terminal">
+
+<div>
+  <span class="terminal-date">23/09</span>
+  <span class="terminal-type">P1</span>
+  <strong>Estudo de Caso I</strong>
+</div>
+
+<div>
+  <span class="terminal-date">11/11</span>
+  <span class="terminal-type">P2</span>
+  <strong>Estudo de Caso II</strong>
+</div>
+
+<div>
+  <span class="terminal-date">25/11</span>
+  <span class="terminal-type">PROJECT</span>
+  <strong>Apresentação dos Projetos</strong>
+</div>
+
+<div>
+  <span class="terminal-date">02/12</span>
+  <span class="terminal-type">P3</span>
+  <strong>Avaliação Substitutiva</strong>
+</div>
+
+</div>
+
+<div class="terminal-prompt">
+<span class="prompt-user">fatec@ied001</span><span class="prompt-sep">:</span><span class="prompt-path">~/estrutura-dados</span><span class="prompt-symbol">$</span>
+<span class="prompt-command">stack --list</span>
+</div>
+
+<div class="stack-terminal">
+
+<span><i class="bi bi-filetype-py"></i> Python</span>
+<span><i class="bi bi-code-slash"></i> C</span>
+<span><i class="bi bi-terminal"></i> VS Code</span>
+<span><i class="bi bi-git"></i> Git</span>
+<span><i class="bi bi-github"></i> GitHub</span>
+
+</div>
+
+<div class="terminal-final-prompt">
+<span class="prompt-user">fatec@ied001</span><span class="prompt-sep">:</span><span class="prompt-path">~/estrutura-dados</span><span class="prompt-symbol">$</span>
+<span class="cursor">_</span>
+</div>
+
+</div>
+
+</div>
+
+</div>
