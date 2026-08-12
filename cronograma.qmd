@@ -1,5 +1,87 @@
 ---
 title: "Cronograma"
+page-layout: full
+toc: false
 ---
 
-Conteúdo em construção.
+<style>
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+table th:nth-child(1),
+table td:nth-child(1) {
+  width: 9%;
+  white-space: nowrap;
+}
+
+table th:nth-child(2),
+table td:nth-child(2) {
+  width: 7%;
+  text-align: center;
+}
+
+table th:nth-child(3),
+table td:nth-child(3) {
+  width: 10%;
+  text-align: center;
+}
+
+table th:nth-child(4),
+table td:nth-child(4) {
+  width: 27%;
+}
+
+table th:nth-child(5),
+table td:nth-child(5) {
+  width: 47%;
+}
+</style>
+
+## Planejamento do semestre
+
+O cronograma abaixo apresenta a organização prevista para a disciplina de **Estruturas de Dados — IED001**, no 2º semestre de 2026.
+
+> **Observação:** o planejamento poderá sofrer ajustes ao longo do semestre em função do calendário acadêmico ou de necessidades pedagógicas. Eventuais alterações serão comunicadas em aula.
+
+| Data | Aula | Unidade | Conteúdo | Atividade |
+|---|---:|:---:|---|---|
+| 05/ago | 1 | I | Apresentação da Disciplina | Plano de ensino, cronograma, avaliação, Projeto Integrador, ferramentas, diagnóstico e formação dos grupos |
+| 12/ago | 2 | I | Fundamentos da Disciplina | Introdução às Estruturas de Dados, Python/C, Git e organização do projeto |
+| 19/ago | 3 | II | Tipos Abstratos de Dados | TAD, encapsulamento, arrays e representação dos dados |
+| 26/ago | 4 | II | Representação em Memória | Referências, memória, desempenho e arrays em Python/C |
+| 02/set | 5 | III | Recursividade | Pilha de chamadas, casos base e implementação |
+| 09/set | 6 | IV | Alocação Dinâmica | Memória dinâmica, nós e referências |
+| 16/set | 7 | IV | Listas Encadeadas | Listas simples, duplas e circulares + revisão |
+| **23/set** | **8** | **Avaliação** | **P1 — Estudo de Caso I** | **Avaliação prática + listas das Unidades I a IV** |
+| 30/set | 9 | V | Pilhas | Implementação, operações e aplicações |
+| 07/out | 10 | V | Filas | Filas lineares, circulares e aplicações |
+| 14/out | 11 | VI | Tabelas Hash | Funções hash, colisões, índices, dicionários e cache |
+| 21/out | 12 | VII | Árvores | Árvores binárias, BST, inserção, busca e remoção |
+| 28/out | 13 | VIII | Métodos de Busca | Busca linear e busca binária |
+| 04/nov | 14 | VIII | Métodos de Ordenação e Revisão | Bubble, Selection, Insertion Sort e revisão |
+| **11/nov** | **15** | **Avaliação** | **P2 — Estudo de Caso II** | **Avaliação prática + listas das Unidades V a VIII** |
+| 18/nov | 16 | Projeto | Mentoria do Projeto Integrador | Refatoração, testes, documentação e preparação |
+| **25/nov** | **17** | **Projeto** | **Apresentação dos Projetos Integradores** | **Apresentação dos grupos e avaliação do trabalho** |
+| **02/dez** | **18** | **Avaliação** | **P3 — Avaliação Substitutiva** | **Aplicação conforme regulamento institucional** |
+| 09/dez | 19 | Encerramento | Feedback e Encerramento | Correção da P3, retrospectiva e fechamento |
+| 16/dez | 20 | Reposição* | Reposição | Conteúdo ou atividade institucional, se necessária |
+
+## Marcos do semestre
+
+**P1 — 23/set**  
+Estudo de Caso I e entrega das listas das Unidades I a IV.
+
+**P2 — 11/nov**  
+Estudo de Caso II e entrega das listas das Unidades V a VIII.
+
+**Projeto Integrador — 25/nov**  
+Apresentação dos projetos desenvolvidos pelos grupos.
+
+**P3 — 02/dez**  
+Avaliação substitutiva conforme regulamentação institucional.
+
+---
+
+\* A aula de 16/dez está reservada para eventual reposição, caso necessária.

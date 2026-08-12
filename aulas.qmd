@@ -2,4 +2,163 @@
 title: "Aulas"
 ---
 
-Conteúdo em construção.
+## Conteúdo das aulas
+
+Nesta página serão disponibilizados os materiais utilizados ao longo da disciplina.
+
+Cada aula poderá conter **slides, material de apoio, códigos, exercícios e laboratórios**, conforme o conteúdo desenvolvido.
+
+::: {.callout-tip}
+## Como utilizar esta página
+
+Utilize o material da aula para revisão e consulte os exercícios e laboratórios para praticar os conceitos apresentados em sala.
+:::
+
+## Unidade I — Fundamentos
+
+### [Aula 01 — Apresentação da Disciplina](aulas/aula-01/index.qmd)
+
+**05 de agosto de 2026**
+
+Apresentação da disciplina, plano de ensino, cronograma, critérios de avaliação, Projeto Integrador, bibliografia, ferramentas e organização dos grupos.
+
+**Conteúdos**
+
+- visão geral da disciplina;
+- objetivos e competências;
+- organização do semestre;
+- critérios de avaliação;
+- ferramentas utilizadas;
+- apresentação do Projeto Integrador;
+- formação dos grupos.
+
+> Materiais da Aula 01 serão disponibilizados nesta página.
+
+---
+
+### Aula 02 — Fundamentos da Disciplina
+
+**12 de agosto de 2026**
+
+Introdução às Estruturas de Dados e preparação do ambiente que será utilizado durante o semestre.
+
+**Conteúdos previstos**
+
+- o que são Estruturas de Dados;
+- estruturas de dados no desenvolvimento de software;
+- representação e organização dos dados;
+- introdução à análise de eficiência;
+- Python e C;
+- VS Code;
+- Git e GitHub;
+- organização do projeto da disciplina.
+
+::: {.callout-note}
+## Próxima aula
+
+Prepare seu ambiente de desenvolvimento e certifique-se de que possui acesso ao **GitHub** e ao **VS Code**.
+:::
+
+## Unidade II — Abstração e Representação
+
+### Aula 03 — Tipos Abstratos de Dados
+
+**19 de agosto de 2026**
+
+TAD, encapsulamento, arrays e representação lógica e física dos dados.
+
+---
+
+### Aula 04 — Representação em Memória
+
+**26 de agosto de 2026**
+
+Referências, organização em memória, análise de desempenho e arrays em Python e C.
+
+## Unidade III — Recursividade
+
+### Aula 05 — Recursividade
+
+**02 de setembro de 2026**
+
+Conceitos de recursividade, pilha de chamadas, casos base e implementação prática.
+
+## Unidade IV — Estruturas Dinâmicas
+
+### Aula 06 — Alocação Dinâmica
+
+**09 de setembro de 2026**
+
+Memória dinâmica, referências e representação de nós.
+
+---
+
+### Aula 07 — Listas Encadeadas
+
+**16 de setembro de 2026**
+
+Listas simplesmente encadeadas, duplamente encadeadas e circulares.
+
+## Unidade V — Pilhas e Filas
+
+### Aula 09 — Pilhas
+
+**30 de setembro de 2026**
+
+Implementação, operações fundamentais e aplicações de pilhas.
+
+---
+
+### Aula 10 — Filas
+
+**07 de outubro de 2026**
+
+Filas lineares, filas circulares e aplicações.
+
+## Unidade VI — Tabelas Hash
+
+### Aula 11 — Tabelas Hash
+
+**14 de outubro de 2026**
+
+Funções hash, tratamento de colisões, índices, dicionários e aplicações.
+
+## Unidade VII — Árvores
+
+### Aula 12 — Árvores
+
+**21 de outubro de 2026**
+
+Árvores binárias, árvores binárias de busca, inserção, busca e remoção.
+
+## Unidade VIII — Busca e Ordenação
+
+### Aula 13 — Métodos de Busca
+
+**28 de outubro de 2026**
+
+Busca linear e busca binária.
+
+---
+
+### Aula 14 — Métodos de Ordenação
+
+**04 de novembro de 2026**
+
+Bubble Sort, Selection Sort, Insertion Sort e revisão para a P2.
+
+## Projeto Integrador
+
+### Aula 16 — Mentoria do Projeto
+
+**18 de novembro de 2026**
+
+Refatoração, testes, documentação e preparação dos projetos para apresentação.
+
+---
+
+### Aula 17 — Apresentação dos Projetos
+
+**25 de novembro de 2026**
+
+Apresentação e avaliação dos Projetos Integradores.

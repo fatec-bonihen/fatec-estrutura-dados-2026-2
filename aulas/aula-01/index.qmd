@@ -1,0 +1,146 @@
+---
+title: "Aula 01 — Apresentação da Disciplina"
+subtitle: "Estruturas de Dados — IED001"
+date: "2026-08-05"
+toc: true
+---
+
+## Visão geral
+
+A aula inaugural apresentou a organização da disciplina de **Estruturas de Dados**, sua relação com Informática para Negócios e a dinâmica de trabalho que será adotada durante o semestre.
+
+| Informação | Detalhe |
+|---|---|
+| **Data** | 05 de agosto de 2026 |
+| **Aula** | 01 |
+| **Unidade** | I — Introdução |
+| **Tema** | Apresentação da Disciplina |
+
+## Objetivos
+
+Ao final da aula, o estudante deveria compreender:
+
+- o propósito da disciplina;
+- a organização do semestre;
+- os principais conteúdos que serão estudados;
+- os marcos avaliativos;
+- a dinâmica das aulas;
+- as ferramentas utilizadas;
+- a proposta geral do Projeto Integrador;
+- a organização inicial dos grupos.
+
+## Por que estudar Estruturas de Dados?
+
+Software não trabalha com informações isoladas. Sistemas precisam **organizar, consultar, inserir, remover e transformar dados** de maneira adequada.
+
+Ao estudar Estruturas de Dados, buscamos desenvolver capacidade para tomar decisões relacionadas a:
+
+- desempenho;
+- clareza da solução;
+- escalabilidade;
+- representação dos dados;
+- escolha técnica.
+
+Entre os exemplos discutidos em aula estão:
+
+| Estrutura | Exemplos de aplicação |
+|---|---|
+| **Filas** | atendimento, pedidos e processamento |
+| **Pilhas** | histórico, desfazer e navegação |
+| **Listas** | cadastros, registros e coleções |
+| **Árvores** | hierarquias, buscas e bancos |
+| **Grafos** | relacionamentos, redes e rotas |
+| **Hash** | consultas rápidas, cache e índices |
+
+## Trilha do semestre
+
+A disciplina será construída progressivamente.
+
+1. Introdução e fundamentos
+2. Tipos Abstratos de Dados
+3. Representação em memória
+4. Recursividade
+5. Estruturas dinâmicas
+6. Pilhas e filas
+7. Tabelas Hash
+8. Árvores
+9. Busca e ordenação
+10. Projeto Integrador
+
+Os conteúdos não serão tratados como tópicos isolados. Cada etapa amplia o repertório necessário para compreender e implementar estruturas mais sofisticadas.
+
+## Como serão as aulas?
+
+A metodologia combina quatro movimentos:
+
+**Conceito → Representação → Código → Aplicação**
+
+Na prática, trabalharemos frequentemente com o ciclo:
+
+> **Desenhar → Implementar → Depurar → Explicar**
+
+O objetivo não é apenas produzir código que funcione. O estudante deve conseguir explicar:
+
+- como a estrutura funciona;
+- como os dados estão organizados;
+- quais operações são realizadas;
+- por que determinada solução foi escolhida;
+- quais são as implicações de desempenho.
+
+## Ferramentas
+
+Durante o semestre utilizaremos principalmente:
+
+- **Python** — implementação e experimentação;
+- **C** — memória e demonstrações pontuais;
+- **Visual Studio Code** — ambiente de desenvolvimento;
+- **Git** — controle de versão;
+- **GitHub** — compartilhamento, colaboração e entregas;
+- **Inteligência Artificial** — apoio ao estudo, revisão e depuração.
+
+::: {.callout-warning}
+## Uso responsável de IA
+
+Ferramentas de IA podem apoiar o aprendizado, mas não substituem compreensão.
+
+Se você não consegue **explicar, testar, depurar e adaptar** o que entregou, ainda não domina a solução.
+:::
+
+## Projeto Integrador
+
+O Projeto Integrador será desenvolvido **gradativamente durante o semestre**.
+
+Neste momento:
+
+- os grupos já foram organizados;
+- os papéis dos integrantes já foram definidos;
+- o escopo do projeto ainda será construído com a turma.
+
+À medida que novas estruturas forem estudadas, os grupos deverão avaliar como esses conhecimentos podem contribuir para a evolução de suas soluções.
+
+O projeto não nasce pronto na primeira aula: ele evolui junto com o repertório técnico desenvolvido durante a disciplina.
+
+## Materiais da aula
+
+::: {.callout-tip}
+## Slides utilizados em sala
+
+O material abaixo corresponde à apresentação utilizada na aula inaugural.
+:::
+
+- [Baixar slides da Aula 01 — PowerPoint](materiais/aula-01-slides.pptx)
+
+## Próxima aula
+
+### Aula 02 — Fundamentos da Disciplina
+
+**12 de agosto de 2026**
+
+Na próxima aula iniciaremos efetivamente o conteúdo técnico da disciplina:
+
+- introdução às Estruturas de Dados;
+- aplicações no mercado;
+- ambiente Python/C;
+- Visual Studio Code;
+- Git e GitHub;
+- organização do projeto da disciplina.
