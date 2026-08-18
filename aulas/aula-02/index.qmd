@@ -1,0 +1,93 @@
+---
+title: "Aula 02 — Fundamentos da Disciplina"
+date: 2026-08-12
+toc: true
+---
+
+::: {.callout-success}
+## Aula realizada
+
+Esta aula foi realizada em **12 de agosto de 2026**.
+:::
+
+## Objetivos da aula
+
+Nesta aula iniciamos os fundamentos de Estruturas de Dados e a preparação do ambiente que será utilizado ao longo da disciplina.
+
+Ao final da aula, o estudante deve ser capaz de:
+
+- compreender o papel das estruturas de dados no desenvolvimento de software;
+- reconhecer diferentes formas de organização e representação de dados;
+- relacionar estruturas de dados a problemas computacionais;
+- compreender a importância inicial da eficiência dos algoritmos;
+- identificar o papel de Python e C na disciplina;
+- compreender como Git e GitHub serão utilizados durante o semestre;
+- compreender a organização inicial do Projeto Integrador.
+
+## Conteúdos trabalhados
+
+### Estruturas de Dados
+
+- conceito de Estrutura de Dados;
+- organização e representação dos dados;
+- relação entre problema, algoritmo e estrutura de dados;
+- aplicações no desenvolvimento de software.
+
+### Eficiência
+
+Introdução à ideia de que diferentes estruturas e algoritmos podem apresentar comportamentos distintos em relação a:
+
+- tempo de execução;
+- utilização de memória;
+- quantidade de dados;
+- operações realizadas.
+
+### Linguagens da disciplina
+
+Durante o semestre utilizaremos principalmente:
+
+- **Python**, para exploração, implementação e compreensão dos conceitos;
+- **C**, para aprofundar aspectos relacionados à memória e representação das estruturas.
+
+### Ambiente de desenvolvimento
+
+Ferramentas previstas para utilização durante a disciplina:
+
+- VS Code;
+- Git;
+- GitHub;
+- Python;
+- C.
+
+### Projeto Integrador
+
+Também discutimos a organização do Projeto Integrador e como o trabalho será desenvolvido progressivamente durante o semestre.
+
+O projeto será utilizado para aplicar os conceitos estudados nas aulas em um contexto prático.
+
+## Materiais da aula
+
+[Baixar slides da Aula 02](materiais/aula-02-fundamentos.pptx){.btn .btn-primary}
+
+## Para revisar
+
+Após esta aula, revise principalmente:
+
+1. o conceito de Estrutura de Dados;
+2. a diferença entre dado, estrutura e algoritmo;
+3. por que a escolha da estrutura pode afetar uma solução;
+4. a relação entre organização dos dados e eficiência;
+5. o papel de Git e GitHub no desenvolvimento do projeto.
+
+## Próxima aula
+
+**Aula 03 — Tipos Abstratos de Dados**
+
+**19 de agosto de 2026**
+
+Na próxima aula avançaremos para:
+
+- Tipos Abstratos de Dados (TAD);
+- encapsulamento;
+- arrays;
+- representação lógica e física dos dados.

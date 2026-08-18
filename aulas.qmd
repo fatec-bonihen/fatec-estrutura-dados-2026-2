@@ -4,66 +4,39 @@ title: "Aulas"
 
 ## Conteúdo das aulas
 
-Nesta página serão disponibilizados os materiais utilizados ao longo da disciplina.
+Esta página acompanha a evolução da disciplina de **Estruturas de Dados — IED001** durante o 2º semestre de 2026.
 
-Cada aula poderá conter **slides, material de apoio, códigos, exercícios e laboratórios**, conforme o conteúdo desenvolvido.
+As aulas realizadas possuem páginas próprias com os materiais disponibilizados aos estudantes.
 
-::: {.callout-tip}
-## Como utilizar esta página
+::: {.callout-note}
+## Situação atual
 
-Utilize o material da aula para revisão e consulte os exercícios e laboratórios para praticar os conceitos apresentados em sala.
+**2 aulas realizadas**
+
+Próxima aula: **Aula 03 — Tipos Abstratos de Dados**, em **19 de agosto de 2026**.
 :::
 
 ## Unidade I — Fundamentos
 
-### [Aula 01 — Apresentação da Disciplina](aulas/aula-01/index.qmd)
+### [✓ Aula 01 — Apresentação da Disciplina](aulas/aula-01/index.qmd)
 
-**05 de agosto de 2026**
+**05 de agosto de 2026 · Realizada**
 
-Apresentação da disciplina, plano de ensino, cronograma, critérios de avaliação, Projeto Integrador, bibliografia, ferramentas e organização dos grupos.
-
-**Conteúdos**
-
-- visão geral da disciplina;
-- objetivos e competências;
-- organização do semestre;
-- critérios de avaliação;
-- ferramentas utilizadas;
-- apresentação do Projeto Integrador;
-- formação dos grupos.
-
-> Materiais da Aula 01 serão disponibilizados nesta página.
+Plano de ensino, cronograma, avaliação, Projeto Integrador, bibliografia, ferramentas e organização dos grupos.
 
 ---
 
-### Aula 02 — Fundamentos da Disciplina
+### [✓ Aula 02 — Fundamentos da Disciplina](aulas/aula-02/index.qmd)
 
-**12 de agosto de 2026**
+**12 de agosto de 2026 · Realizada**
 
-Introdução às Estruturas de Dados e preparação do ambiente que será utilizado durante o semestre.
-
-**Conteúdos previstos**
-
-- o que são Estruturas de Dados;
-- estruturas de dados no desenvolvimento de software;
-- representação e organização dos dados;
-- introdução à análise de eficiência;
-- Python e C;
-- VS Code;
-- Git e GitHub;
-- organização do projeto da disciplina.
-
-::: {.callout-note}
-## Próxima aula
-
-Prepare seu ambiente de desenvolvimento e certifique-se de que possui acesso ao **GitHub** e ao **VS Code**.
-:::
+Introdução às Estruturas de Dados, aplicações no desenvolvimento de software, representação dos dados, eficiência, Python/C, Git, GitHub e organização do projeto.
 
 ## Unidade II — Abstração e Representação
 
-### Aula 03 — Tipos Abstratos de Dados
+### → Aula 03 — Tipos Abstratos de Dados
 
-**19 de agosto de 2026**
+**19 de agosto de 2026 · Próxima aula**
 
 TAD, encapsulamento, arrays e representação lógica e física dos dados.
 
@@ -97,7 +70,15 @@ Memória dinâmica, referências e representação de nós.
 
 **16 de setembro de 2026**
 
-Listas simplesmente encadeadas, duplamente encadeadas e circulares.
+Listas simplesmente encadeadas, duplamente encadeadas e circulares, com revisão dos conteúdos das Unidades I a IV.
+
+## Avaliação — P1
+
+### Aula 08 — P1: Estudo de Caso I
+
+**23 de setembro de 2026**
+
+Avaliação prática e entrega das listas referentes às Unidades I a IV.
 
 ## Unidade V — Pilhas e Filas
 
@@ -121,7 +102,7 @@ Filas lineares, filas circulares e aplicações.
 
 **14 de outubro de 2026**
 
-Funções hash, tratamento de colisões, índices, dicionários e aplicações.
+Funções hash, tratamento de colisões, índices, dicionários, cache e aplicações.
 
 ## Unidade VII — Árvores
 
@@ -141,15 +122,23 @@ Busca linear e busca binária.
 
 ---
 
-### Aula 14 — Métodos de Ordenação
+### Aula 14 — Métodos de Ordenação e Revisão
 
 **04 de novembro de 2026**
 
-Bubble Sort, Selection Sort, Insertion Sort e revisão para a P2.
+Bubble Sort, Selection Sort, Insertion Sort e revisão dos conteúdos para a P2.
+
+## Avaliação — P2
+
+### Aula 15 — P2: Estudo de Caso II
+
+**11 de novembro de 2026**
+
+Avaliação prática e entrega das listas referentes às Unidades V a VIII.
 
 ## Projeto Integrador
 
-### Aula 16 — Mentoria do Projeto
+### Aula 16 — Mentoria do Projeto Integrador
 
 **18 de novembro de 2026**
 
@@ -157,8 +146,32 @@ Refatoração, testes, documentação e preparação dos projetos para apresenta
 
 ---
 
-### Aula 17 — Apresentação dos Projetos
+### Aula 17 — Apresentação dos Projetos Integradores
 
 **25 de novembro de 2026**
 
-Apresentação e avaliação dos Projetos Integradores.
+Apresentação dos grupos e avaliação do trabalho desenvolvido durante o semestre.
+
+## Encerramento
+
+### Aula 18 — P3: Avaliação Substitutiva
+
+**02 de dezembro de 2026**
+
+Aplicação conforme regulamentação institucional.
+
+---
+
+### Aula 19 — Feedback e Encerramento
+
+**09 de dezembro de 2026**
+
+Correção da P3, retrospectiva e fechamento da disciplina.
+
+---
+
+### Aula 20 — Reposição
+
+**16 de dezembro de 2026**
+
+Data reservada para eventual reposição, caso necessária.

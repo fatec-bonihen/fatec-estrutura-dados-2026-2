@@ -1,5 +1,293 @@
 ---
-title: "Projeto"
+title: "Projeto Integrador"
+subtitle: "IED001 — Estruturas de Dados"
+toc: true
 ---
 
-Conteúdo em construção.
+## Visão geral
+
+O **Projeto Integrador** é o trabalho prático contínuo da disciplina de Estruturas de Dados.
+
+Cada grupo parte de um **problema-base** e desenvolve uma solução de forma incremental ao longo do semestre.
+
+O objetivo não é apenas construir um programa que funcione. O grupo deverá ser capaz de explicar:
+
+- como os dados estão organizados;
+- quais operações precisam ser realizadas;
+- quais decisões técnicas foram tomadas;
+- por que determinada estrutura de dados é adequada ao problema;
+- quando uma decisão anterior precisa ser revista.
+
+::: {.callout-tip}
+## Princípio do projeto
+
+Uma boa solução não é a que utiliza a estrutura mais sofisticada.
+
+É a solução cuja escolha de organização dos dados pode ser **compreendida, testada e justificada** pelo grupo.
+:::
+
+## Pergunta que acompanhará o semestre
+
+> **A forma como estamos organizando os dados continua adequada para as operações que nosso sistema precisa realizar?**
+
+Essa pergunta deverá ser retomada sempre que novos conteúdos forem estudados.
+
+## Resultados esperados
+
+Durante o projeto, cada grupo deverá desenvolver capacidade para:
+
+- transformar um problema em requisitos e operações sobre dados;
+- identificar quais informações precisam ser mantidas;
+- definir um escopo inicial pequeno e coerente;
+- organizar necessidades e funcionalidades em um Product Backlog;
+- trabalhar em incrementos por meio de Sprints;
+- utilizar Git e GitHub para versionamento;
+- implementar e testar a solução;
+- registrar decisões técnicas;
+- revisar e refatorar escolhas anteriores;
+- justificar as Estruturas de Dados utilizadas;
+- explicar coletivamente o incremento desenvolvido.
+
+## Organização dos grupos
+
+Os grupos possuem papéis definidos para auxiliar a organização do trabalho.
+
+### PM — Product Manager
+
+Responsabilidades principais:
+
+- organizar prioridades;
+- manter o Product Backlog compreensível;
+- ajudar o grupo a delimitar o escopo;
+- acompanhar o que será entregue em cada Sprint.
+
+O PM não é o único responsável pelo produto.
+
+### Tech Lead
+
+Responsabilidades principais:
+
+- apoiar decisões técnicas;
+- auxiliar na integração do código;
+- colaborar com padrões e organização;
+- apoiar revisões;
+- ajudar o grupo a explicar tecnicamente a solução.
+
+O Tech Lead não deve ser o único responsável pela implementação.
+
+### Team Members
+
+Responsabilidades:
+
+- analisar;
+- implementar;
+- testar;
+- documentar;
+- revisar;
+- participar das decisões técnicas.
+
+::: {.callout-warning}
+## Regra de equipe
+
+Os papéis organizam responsabilidades, mas **não criam silos**.
+
+Todos os integrantes deverão compreender e conseguir explicar o que foi desenvolvido pelo grupo.
+:::
+
+## Evolução do projeto
+
+O projeto acompanhará o conteúdo técnico da disciplina.
+
+O fluxo esperado é:
+
+**Conteúdo estudado → revisão do problema e do backlog → planejamento da Sprint → implementação e testes → revisão da solução → justificativa das escolhas**
+
+Refatorar faz parte do processo.
+
+Uma decisão considerada adequada no início do semestre poderá ser revista conforme novos conceitos forem estudados.
+
+## Sprints
+
+O trabalho será organizado em **Sprints de aproximadamente duas semanas**.
+
+### Início da Sprint
+
+O grupo deverá:
+
+- revisar o Product Backlog;
+- selecionar os itens prioritários;
+- esclarecer o que será desenvolvido;
+- definir um incremento pequeno e executável.
+
+### Durante a Sprint
+
+O grupo deverá:
+
+- implementar;
+- testar;
+- documentar;
+- registrar decisões;
+- manter o repositório atualizado.
+
+### Final da Sprint
+
+O grupo deverá:
+
+- demonstrar o incremento;
+- explicar as decisões tomadas;
+- justificar escolhas relacionadas à organização dos dados;
+- registrar ajustes necessários;
+- atualizar o Product Backlog.
+
+## Escopo inicial
+
+O professor fornecerá um **problema-base** para cada grupo.
+
+O problema-base não representa um escopo funcional fechado. A equipe deverá analisá-lo e construir sua própria visão inicial do produto.
+
+Para delimitar o primeiro incremento, o grupo deverá responder:
+
+- quem utilizará a solução?
+- qual problema queremos resolver primeiro?
+- quais informações precisam ser mantidas?
+- quais operações precisam ser realizadas?
+- quais necessidades são essenciais?
+- quais funcionalidades podem esperar?
+- o que é pequeno o suficiente para caber na primeira Sprint?
+
+::: {.callout-important}
+## Não escolher a Estrutura de Dados cedo demais
+
+Primeiro definimos o problema, os dados e as operações.
+
+A escolha das Estruturas de Dados deverá ser feita e revisada conforme o conteúdo técnico da disciplina avançar.
+:::
+
+## Product Backlog
+
+O **Product Backlog** é uma lista priorizada contendo necessidades, funcionalidades, melhorias e tarefas relevantes para o produto.
+
+Novos itens podem surgir e prioridades podem mudar conforme o grupo compreende melhor o problema.
+
+| Campo | Descrição |
+|---|---|
+| ID | Identificador do item |
+| Item | Necessidade ou funcionalidade |
+| Prioridade | Alta, média ou baixa |
+| Observações | Informações relevantes |
+
+### User Stories
+
+Quando fizer sentido, uma necessidade poderá ser descrita no formato:
+
+> **Como** [tipo de usuário], **quero** [necessidade], **para** [benefício].
+
+A User Story deverá descrever a necessidade do usuário, e não antecipar uma solução técnica.
+
+Evite definir histórias como:
+
+- usar uma fila;
+- usar uma tabela hash;
+- usar uma árvore.
+
+A Estrutura de Dados deverá ser consequência das operações e requisitos do problema.
+
+## Git e GitHub
+
+Cada grupo terá um repositório próprio para registrar a evolução do projeto.
+
+Código, documentação e decisões técnicas deverão evoluir juntos.
+
+Estrutura inicial recomendada:
+
+    ied001-2026-2-nome-do-grupo/
+    ├── README.md
+    ├── docs/
+    │   ├── product-backlog.md
+    │   └── decisoes.md
+    ├── src/
+    ├── tests/
+    └── .gitignore
+
+O `README.md` deverá conter progressivamente:
+
+- nome do projeto;
+- problema-base;
+- integrantes;
+- papéis do grupo;
+- objetivo inicial;
+- forma de trabalho;
+- Sprint atual;
+- instruções para execução quando houver código.
+
+## Entrega inicial
+
+O objetivo inicial não é entregar um sistema pronto.
+
+Cada grupo deverá avançar progressivamente em:
+
+- confirmação dos integrantes e papéis;
+- compreensão do problema-base;
+- definição de um primeiro escopo pequeno;
+- criação do Product Backlog;
+- primeiras User Stories, quando aplicáveis;
+- configuração do repositório Git;
+- estrutura inicial de diretórios;
+- primeiros commits do projeto.
+
+## Critérios mínimos de qualidade
+
+Ao longo do semestre, espera-se que o grupo mantenha:
+
+- código versionado no Git;
+- README atualizado;
+- documentação coerente;
+- funcionalidade executável quando aplicável;
+- testes básicos;
+- decisões técnicas registradas;
+- justificativas para as Estruturas de Dados utilizadas;
+- compreensão coletiva do incremento desenvolvido.
+
+## Relação com a disciplina
+
+O projeto será revisitado conforme novos conteúdos forem estudados.
+
+| Conteúdo | Reflexão para o projeto |
+|---|---|
+| TAD e arrays | Quais dados e operações precisam ser definidos com clareza? |
+| Representação em memória | Como nossa implementação representa os dados? |
+| Recursividade | Existe algum problema que possa ser decomposto recursivamente? |
+| Listas | Como representar coleções que mudam durante a execução? |
+| Pilhas e filas | Existem regras de sequência, histórico ou processamento? |
+| Hash | Existem consultas por chave que justificam outra organização? |
+| Árvores | Existe necessidade de hierarquia, ordenação ou busca estruturada? |
+| Busca e ordenação | Como o volume de dados afeta as operações realizadas? |
+
+## Uso de Inteligência Artificial
+
+Ferramentas de IA podem apoiar:
+
+- estudo;
+- implementação;
+- revisão;
+- depuração;
+- documentação.
+
+O uso de IA não substitui a capacidade do grupo de:
+
+- explicar;
+- testar;
+- depurar;
+- modificar;
+- justificar a solução construída.
+
+## Marcos do semestre
+
+| Data | Marco |
+|---|---|
+| **23/09** | P1 — Estudo de Caso I |
+| **11/11** | P2 — Estudo de Caso II |
+| **18/11** | Mentoria do Projeto Integrador |
+| **25/11** | Apresentação dos Projetos Integradores |
+
+Consulte o [cronograma completo](cronograma.qmd) para acompanhar todas as datas da disciplina.

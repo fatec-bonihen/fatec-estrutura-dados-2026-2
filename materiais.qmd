@@ -2,4 +2,44 @@
 title: "Materiais"
 ---
 
-Conteúdo em construção.
+## Materiais da disciplina
+
+Esta página centraliza os materiais disponibilizados aos estudantes de **Estruturas de Dados — IED001**.
+
+Os conteúdos são publicados progressivamente conforme o andamento das aulas.
+
+## Aulas realizadas
+
+### Aula 01 — Apresentação da Disciplina
+
+**05 de agosto de 2026**
+
+- [Acessar página da Aula 01](aulas/aula-01/index.qmd)
+- [Baixar slides — PowerPoint](aulas/aula-01/materiais/aula-01-slides.pptx)
+
+### Aula 02 — Fundamentos da Disciplina
+
+**12 de agosto de 2026**
+
+- [Acessar página da Aula 02](aulas/aula-02/index.qmd)
+- [Baixar slides — PowerPoint](aulas/aula-02/materiais/aula-02-fundamentos.pptx)
+
+## Ferramentas
+
+Durante o semestre serão utilizadas principalmente:
+
+- Python;
+- C;
+- Visual Studio Code;
+- Git;
+- GitHub.
+
+## Materiais futuros
+
+Novos slides, exercícios, códigos, laboratórios e materiais complementares serão disponibilizados conforme o avanço da disciplina.
+
+::: {.callout-warning}
+## Material de apoio docente
+
+Roteiros de condução, respostas esperadas, soluções e outros materiais destinados exclusivamente ao docente não são publicados neste portal.
+:::

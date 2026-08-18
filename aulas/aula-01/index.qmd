@@ -5,6 +5,12 @@ date: "2026-08-05"
 toc: true
 ---
 
+::: {.callout-success}
+## Aula realizada
+
+Esta aula foi realizada em **05 de agosto de 2026**.
+:::
+
 ## Visão geral
 
 A aula inaugural apresentou a organização da disciplina de **Estruturas de Dados**, sua relação com Informática para Negócios e a dinâmica de trabalho que será adotada durante o semestre.
@@ -110,11 +116,11 @@ Se você não consegue **explicar, testar, depurar e adaptar** o que entregou, a
 
 O Projeto Integrador será desenvolvido **gradativamente durante o semestre**.
 
-Neste momento:
+Nesta primeira aula:
 
-- os grupos já foram organizados;
-- os papéis dos integrantes já foram definidos;
-- o escopo do projeto ainda será construído com a turma.
+- os grupos foram organizados;
+- os papéis dos integrantes foram definidos;
+- foi apresentada a proposta geral de desenvolvimento incremental do projeto.
 
 À medida que novas estruturas forem estudadas, os grupos deverão avaliar como esses conhecimentos podem contribuir para a evolução de suas soluções.
 
@@ -130,17 +136,8 @@ O material abaixo corresponde à apresentação utilizada na aula inaugural.
 
 - [Baixar slides da Aula 01 — PowerPoint](materiais/aula-01-slides.pptx)
 
-## Próxima aula
+## Continuidade
 
-### Aula 02 — Fundamentos da Disciplina
+A sequência da disciplina avançou na **Aula 02 — Fundamentos da Disciplina**, realizada em **12 de agosto de 2026**.
 
-**12 de agosto de 2026**
-
-Na próxima aula iniciaremos efetivamente o conteúdo técnico da disciplina:
-
-- introdução às Estruturas de Dados;
-- aplicações no mercado;
-- ambiente Python/C;
-- Visual Studio Code;
-- Git e GitHub;
-- organização do projeto da disciplina.
+[Consultar Aula 02](../aula-02/index.qmd){.btn .btn-primary}

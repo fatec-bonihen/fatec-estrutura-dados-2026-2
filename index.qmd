@@ -41,21 +41,36 @@ dados / memória / algoritmos / desempenho
 
 <div class="terminal-prompt">
 <span class="prompt-user">fatec@ied001</span><span class="prompt-sep">:</span><span class="prompt-path">~/estrutura-dados</span><span class="prompt-symbol">$</span>
+<span class="prompt-command">semester-status</span>
+</div>
+
+<div class="terminal-text-block">
+
+<h2>Semestre em andamento</h2>
+
+<p>
+<strong>02 aulas realizadas</strong> · próxima aula em 19 de agosto de 2026
+</p>
+
+</div>
+
+<div class="terminal-prompt">
+<span class="prompt-user">fatec@ied001</span><span class="prompt-sep">:</span><span class="prompt-path">~/estrutura-dados</span><span class="prompt-symbol">$</span>
 <span class="prompt-command">next-class</span>
 </div>
 
 <div class="next-terminal">
 
-<div class="next-terminal-number">02</div>
+<div class="next-terminal-number">03</div>
 
 <div>
-  <div class="terminal-section-label">NEXT CLASS / 12 AUG 2026</div>
+  <div class="terminal-section-label">NEXT CLASS / 19 AUG 2026</div>
 
-  <h2>Fundamentos da Disciplina</h2>
+  <h2>Tipos Abstratos de Dados</h2>
 
   <p>
-  Introdução às Estruturas de Dados, aplicações no desenvolvimento
-  de software, ambiente Python/C, Git e organização do projeto.
+  Tipos Abstratos de Dados (TAD), encapsulamento, arrays
+  e representação lógica e física dos dados.
   </p>
 
   <a href="aulas.qmd" class="terminal-button">
@@ -63,6 +78,28 @@ dados / memória / algoritmos / desempenho
   <i class="bi bi-arrow-right"></i>
   </a>
 </div>
+
+</div>
+
+<div class="terminal-prompt">
+<span class="prompt-user">fatec@ied001</span><span class="prompt-sep">:</span><span class="prompt-path">~/estrutura-dados</span><span class="prompt-symbol">$</span>
+<span class="prompt-command">recent-classes</span>
+</div>
+
+<div class="terminal-text-block">
+
+<p>
+<strong>✓ Aula 01 · 05/08</strong> — Apresentação da Disciplina
+</p>
+
+<p>
+<strong>✓ Aula 02 · 12/08</strong> — Fundamentos da Disciplina
+</p>
+
+<a href="aulas.qmd" class="terminal-button">
+./consultar-historico.sh
+<i class="bi bi-arrow-right"></i>
+</a>
 
 </div>
 
@@ -147,8 +184,8 @@ dados / memória / algoritmos / desempenho
 
 <p>
 O projeto será desenvolvido <strong>gradativamente durante o semestre</strong>.
-Os grupos e seus papéis já foram organizados. O escopo será discutido
-com a turma e evoluirá conforme novos conceitos e estruturas forem estudados.
+Os grupos e seus papéis já foram organizados. O escopo evoluirá
+conforme novos conceitos e estruturas forem estudados.
 </p>
 
 <a href="projeto.qmd" class="terminal-button">
@@ -212,7 +249,5 @@ com a turma e evoluirá conforme novos conceitos e estruturas forem estudados.
 </div>
 
 </div>
-
 </div>
-
 </div>
