@@ -281,6 +281,462 @@ O uso de IA não substitui a capacidade do grupo de:
 - modificar;
 - justificar a solução construída.
 
+
+---
+
+## Entregáveis oficiais do Projeto Integrador
+
+O Projeto Integrador será desenvolvido de forma **incremental durante o semestre**.
+
+A entrega não será constituída apenas por um arquivo ou apresentação final. O **repositório GitHub do grupo será o principal artefato de acompanhamento e evidência da evolução do projeto**.
+
+Cada grupo deverá manter seu repositório atualizado durante todo o semestre.
+
+### E0 — Setup inicial do projeto
+
+O primeiro estágio do projeto deverá estabelecer sua base de trabalho.
+
+Cada grupo deverá possuir:
+
+- integrantes e papéis definidos;
+- problema-base compreendido;
+- escopo inicial delimitado;
+- Product Backlog inicial;
+- primeiras User Stories, quando aplicáveis;
+- repositório GitHub configurado;
+- estrutura inicial do projeto;
+- primeiro conjunto de commits.
+
+::: {.callout-note}
+## O objetivo do E0 não é entregar o sistema pronto
+
+Nesta etapa, o mais importante é demonstrar que o grupo compreendeu o problema, organizou o trabalho e possui uma base versionada a partir da qual a solução poderá evoluir.
+:::
+
+### E1...En — Incrementos das Sprints
+
+Cada Sprint deverá produzir uma evolução verificável do projeto.
+
+Ao final de cada Sprint, deverão existir evidências de:
+
+1. Product Backlog atualizado;
+2. incremento de código, quando aplicável;
+3. testes relacionados ao incremento;
+4. documentação atualizada;
+5. decisões técnicas registradas;
+6. commits realizados pelos integrantes;
+7. integração do incremento à versão principal do projeto.
+
+Não será necessário gerar um PDF separado para cada Sprint.
+
+**O próprio repositório será a evidência do trabalho realizado.**
+
+### Entrega final
+
+Ao final do semestre, o repositório deverá representar a consolidação de todo o trabalho desenvolvido.
+
+Espera-se encontrar:
+
+- solução executável;
+- código-fonte organizado;
+- testes;
+- README atualizado;
+- Product Backlog;
+- histórico das Sprints;
+- decisões técnicas;
+- justificativas das Estruturas de Dados adotadas;
+- histórico de commits;
+- histórico de integração das funcionalidades.
+
+### Apresentação final
+
+Na apresentação do Projeto Integrador, o grupo deverá:
+
+- contextualizar o problema;
+- demonstrar a solução;
+- apresentar sua evolução;
+- explicar as principais decisões técnicas;
+- identificar as Estruturas de Dados utilizadas;
+- justificar por que essas estruturas foram escolhidas;
+- explicar decisões que foram revistas ou refatoradas durante o semestre.
+
+Todos os integrantes deverão compreender a solução e estar preparados para responder perguntas sobre o projeto.
+
+---
+
+## Repositório GitHub
+
+Cada grupo deverá possuir **um repositório próprio** para o Projeto Integrador.
+
+O GitHub não será utilizado apenas como local para armazenar a versão final.
+
+Ele deverá registrar a **evolução do projeto durante o semestre**.
+
+### Estrutura mínima
+
+A estrutura mínima esperada é:
+
+    ied001-2026-2-nome-do-grupo/
+    |
+    +-- README.md
+    +-- .gitignore
+    |
+    +-- docs/
+    |   +-- product-backlog.md
+    |   +-- decisoes.md
+    |   |
+    |   +-- sprints/
+    |       +-- sprint-01.md
+    |       +-- sprint-02.md
+    |       +-- sprint-03.md
+    |       +-- ...
+    |
+    +-- src/
+    |   +-- ...
+    |
+    +-- tests/
+        +-- ...
+
+::: {.callout-important}
+## O repositório faz parte da entrega
+
+Um projeto apresentado apenas na última semana, sem histórico compatível de evolução no Git, não representa adequadamente o processo incremental esperado na disciplina.
+:::
+
+---
+
+## README.md
+
+O `README.md` será a porta de entrada do projeto.
+
+Ele deverá conter, progressivamente:
+
+- nome do projeto;
+- tema e problema-base;
+- integrantes;
+- papel de cada integrante;
+- objetivo do produto;
+- escopo atual;
+- Sprint atual;
+- instruções para execução;
+- Estruturas de Dados utilizadas, conforme forem incorporadas.
+
+Exemplo de organização:
+
+    # Nome do Projeto
+
+    ## Tema e problema-base
+
+    Descrição do problema.
+
+    ## Integrantes
+
+    | Integrante | Papel |
+    |-------------|-------|
+    | Nome        | PM |
+    | Nome        | Tech Lead |
+    | Nome        | Team Member |
+
+    ## Objetivo
+
+    Objetivo atual do produto.
+
+    ## Escopo atual
+
+    Funcionalidades contempladas no incremento atual.
+
+    ## Sprint atual
+
+    Sprint XX
+
+    ## Como executar
+
+    Instruções para execução da solução.
+
+    ## Estruturas de Dados
+
+    Estruturas incorporadas à solução e respectivas justificativas.
+
+---
+
+## Product Backlog
+
+O arquivo:
+
+`docs/product-backlog.md`
+
+deverá representar o backlog vivo do produto.
+
+Uma estrutura possível é:
+
+| ID | Item | Prioridade | Status | Sprint |
+|---|---|---|---|---|
+| PB01 | Necessidade ou funcionalidade | Alta | Backlog | - |
+| PB02 | Necessidade ou funcionalidade | Alta | Em andamento | 01 |
+| PB03 | Necessidade ou funcionalidade | Média | Concluído | 01 |
+
+Estados sugeridos:
+
+- Backlog;
+- Em andamento;
+- Concluído.
+
+O backlog deverá ser revisado conforme:
+
+- o problema for melhor compreendido;
+- novas necessidades forem identificadas;
+- o conteúdo da disciplina avançar;
+- decisões técnicas forem revistas.
+
+---
+
+## Registro de decisões técnicas
+
+O arquivo:
+
+`docs/decisoes.md`
+
+deverá registrar decisões relevantes tomadas pelo grupo.
+
+Esse é um dos principais artefatos técnicos do Projeto Integrador.
+
+Uma decisão poderá ser registrada utilizando a seguinte estrutura:
+
+    ## DT-001 — Título da decisão
+
+    Data: DD/MM/AAAA
+
+    ### Contexto
+
+    Qual problema ou necessidade motivou esta decisão?
+
+    ### Alternativas consideradas
+
+    Quais possibilidades foram avaliadas?
+
+    ### Decisão
+
+    Qual solução foi adotada?
+
+    ### Justificativa
+
+    Por que essa decisão foi tomada?
+
+    ### Revisitar quando
+
+    Em quais condições essa decisão deverá ser reavaliada?
+
+::: {.callout-tip}
+## Estruturas de Dados devem aparecer nas decisões
+
+Quando uma Estrutura de Dados for introduzida, substituída ou descartada, o grupo deverá registrar a decisão e sua justificativa.
+
+O importante não é apenas escrever:
+
+**"utilizamos uma tabela hash".**
+
+O grupo deverá explicar **qual operação motivou essa escolha e por que ela é adequada ao problema**.
+:::
+
+---
+
+## Registro das Sprints
+
+Cada Sprint deverá possuir um pequeno registro em:
+
+`docs/sprints/`
+
+Por exemplo:
+
+`docs/sprints/sprint-01.md`
+
+O registro deverá conter, no mínimo:
+
+    # Sprint 01
+
+    ## Período
+
+    DD/MM/AAAA a DD/MM/AAAA
+
+    ## Objetivo da Sprint
+
+    Descrição do incremento pretendido.
+
+    ## Itens selecionados
+
+    - PB01
+    - PB02
+
+    ## Entregue
+
+    O que efetivamente foi concluído.
+
+    ## Decisões técnicas
+
+    - DT-001
+
+    ## Pendências
+
+    Itens que permaneceram abertos.
+
+    ## Retrospectiva
+
+    O que funcionou e o que o grupo pretende melhorar.
+
+O objetivo desse documento é permitir acompanhar a evolução do projeto sem depender apenas da apresentação final.
+
+---
+
+## Estratégia de branches
+
+A branch:
+
+`main`
+
+deverá representar a versão **integrada e funcional** do projeto.
+
+Funcionalidades relevantes deverão ser desenvolvidas preferencialmente em branches próprias.
+
+Exemplos:
+
+    feature/pb01-cadastro
+    feature/pb02-consulta
+    feature/pb03-cancelamento
+
+Fluxo esperado:
+
+    main
+      |
+      +-- feature/pb01-cadastro
+      |       |
+      |       +-- desenvolvimento
+      |       +-- testes
+      |       +-- commits
+      |       +-- Pull Request
+      |               |
+      +---------------+--> main
+
+Não será necessário utilizar um Git Flow completo com branches `develop`, `release` e `hotfix`.
+
+O objetivo é praticar um fluxo de colaboração simples e rastreável.
+
+---
+
+## Pull Requests
+
+Sempre que possível, a integração de uma funcionalidade à `main` deverá ocorrer por meio de **Pull Request**.
+
+O Pull Request deverá permitir que o grupo:
+
+- visualize as alterações;
+- revise o código;
+- discuta ajustes;
+- verifique os testes;
+- registre a integração da funcionalidade.
+
+O histórico de Pull Requests também fará parte da evidência de colaboração do grupo.
+
+---
+
+## Commits
+
+Os commits deverão ser:
+
+- frequentes;
+- pequenos;
+- compreensíveis;
+- relacionados a alterações reais do projeto.
+
+Evite mensagens genéricas como:
+
+    atualização
+    alteração
+    trabalho
+    versão nova
+    final
+
+Prefira mensagens que indiquem o que foi realizado:
+
+    feat: adiciona cadastro de pedidos
+    feat: implementa consulta de pedidos
+    test: adiciona testes de consulta
+    docs: atualiza product backlog
+    docs: registra decisão DT-003
+    fix: corrige validação de entrada
+    refactor: substitui busca sequencial por índice hash
+
+::: {.callout-warning}
+## Commits identificam a evolução do grupo
+
+Evite concentrar todo o desenvolvimento em um único integrante ou realizar apenas um grande commit próximo à entrega.
+
+O histórico do Git deverá permitir compreender como o projeto evoluiu e como os integrantes participaram dessa evolução.
+:::
+
+---
+
+## Relação entre aula, Sprint e Git
+
+O projeto deverá seguir continuamente este ciclo:
+
+    conteúdo estudado
+          |
+          v
+    novo repertório técnico
+          |
+          v
+    revisão da solução
+          |
+          v
+    decisão técnica
+          |
+          v
+    atualização do backlog
+          |
+          v
+    Sprint
+          |
+          v
+    branch + commits + testes
+          |
+          v
+    Pull Request
+          |
+          v
+    main
+          |
+          v
+    incremento executável
+
+Dessa forma, o Git não registra apenas código.
+
+Ele registra a **evolução do raciocínio técnico do grupo durante a disciplina**.
+
+---
+
+## Checklist de entrega
+
+Antes de considerar um incremento concluído, o grupo deverá verificar:
+
+- [ ] Product Backlog atualizado;
+- [ ] código versionado;
+- [ ] incremento executável, quando aplicável;
+- [ ] testes básicos realizados;
+- [ ] documentação atualizada;
+- [ ] decisões técnicas registradas;
+- [ ] Sprint documentada;
+- [ ] commits compreensíveis;
+- [ ] integração realizada;
+- [ ] integrantes capazes de explicar o incremento.
+
+::: {.callout-note}
+## Critério central
+
+O Projeto Integrador não será avaliado apenas pelo volume de código produzido.
+
+A equipe deverá demonstrar capacidade de **compreender o problema, organizar os dados, implementar, testar, justificar decisões e evoluir tecnicamente a solução**.
+:::
+
 ## Marcos do semestre
 
 | Data | Marco |
@@ -291,3 +747,122 @@ O uso de IA não substitui a capacidade do grupo de:
 | **25/11** | Apresentação dos Projetos Integradores |
 
 Consulte o [cronograma completo](cronograma.qmd) para acompanhar todas as datas da disciplina.
+
+---
+
+## Grupos e temas do Projeto Integrador
+
+Cada grupo recebeu um **problema-base** para orientar o início do Projeto Integrador.
+
+O problema-base define o domínio e algumas operações esperadas, mas **não representa uma especificação fechada da solução**.
+
+Cabe ao grupo compreender o problema, delimitar o escopo inicial, construir o Product Backlog e evoluir tecnicamente a solução conforme os conteúdos de Estruturas de Dados forem estudados.
+
+### The Office
+
+**Tema:** Sistema de Pedidos de Restaurante / Delivery
+
+**Escopo-base**
+
+Gerenciar pedidos desde o registro até o atendimento.
+
+O sistema deverá permitir:
+
+- cadastrar pedidos;
+- consultar informações;
+- acompanhar status;
+- cancelar pedidos;
+- organizar o processamento.
+
+O grupo deverá definir usuários, regras de negócio, prioridades e demais operações necessárias.
+
+---
+
+### The Buggers
+
+**Tema:** Central de Chamados de Suporte
+
+**Escopo-base**
+
+Gerenciar solicitações de suporte realizadas por usuários.
+
+O sistema deverá permitir:
+
+- abrir chamados;
+- consultar chamados;
+- acompanhar status;
+- registrar prioridade;
+- organizar o atendimento.
+
+O grupo deverá definir categorias, responsáveis, histórico e regras de priorização.
+
+---
+
+### Os Mentalistas
+
+**Tema:** Sistema de Biblioteca e Empréstimos
+
+**Escopo-base**
+
+Gerenciar acervo, usuários e movimentações de empréstimo.
+
+O sistema deverá permitir:
+
+- cadastrar livros;
+- cadastrar usuários;
+- realizar empréstimos;
+- realizar devoluções;
+- consultar disponibilidade;
+- acompanhar reservas.
+
+O grupo deverá definir regras de empréstimo, atrasos, reservas e consultas.
+
+---
+
+### Amigos do Bart
+
+**Tema:** Sistema de Controle de Estoque
+
+**Escopo-base**
+
+Gerenciar produtos e movimentações de estoque.
+
+O sistema deverá permitir:
+
+- cadastrar produtos;
+- registrar entradas;
+- registrar saídas;
+- consultar saldo;
+- acompanhar movimentações.
+
+O grupo deverá definir regras de reposição, identificação dos produtos e consultas relevantes.
+
+---
+
+### TropaAlfa
+
+**Tema:** Sistema de Eventos e Inscrições
+
+**Escopo-base**
+
+Gerenciar eventos, participantes e inscrições.
+
+O sistema deverá permitir:
+
+- cadastrar eventos;
+- registrar participantes;
+- controlar inscrições;
+- controlar vagas;
+- consultar informações.
+
+O grupo deverá definir regras para capacidade, cancelamento, lista de espera e acompanhamento dos eventos.
+
+::: {.callout-important}
+## O tema não define a Estrutura de Dados
+
+Os temas estabelecem **problemas e operações sobre dados**.
+
+Cada grupo deverá analisar, ao longo do semestre, quais Estruturas de Dados são adequadas às necessidades de sua solução.
+
+A escolha técnica deverá ser consequência do problema — não o contrário.
+:::
